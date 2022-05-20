@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+               <b> Escolha Seu Personagem</b>
+            </h1>  
+            <img class="logotipo" src="./src/mario/PngItem_832422.png" alt="logotipo">
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/mario/mario.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Mario</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="mario" data-name="Mario">
+                    <span class="tag">1P</span>
+                    <img src="./src/mario/mario.jpg" alt="Personagem Mario">
+                </li>
+
+                <li class="personagem" id="luigi" data-name="Luigi">
+                    <span class="tag">1P</span>
+                    <img src="./src/mario/luigi.jpg" alt="Personagem Luigi">
+                </li>
+
+                <li class="personagem" id="yoshi" data-name="Yoshi">
+                    <span class="tag">1P</span>
+                    <img src="./src/mario/yoshi.jpg" alt="Yoshi">
+                </li>
+
+                <li class="personagem" id="toad" data-name="Toad">
+                    <span class="tag">1P</span>
+                    <img src="./src/mario/toad.jpg" alt="Personagem Toad">
+                </li>
+
+                <li class="personagem" id="goombe" data-name="Goombe">
+                    <span class="tag">1P</span>
+                    <img src="./src/mario/goombe.jpg" alt="Personagem Goombe">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="bowser" data-name="Bowser">
+                    <span class="tag">2P</span>
+                    <img src="./src/mario/Bowser.jpg" alt="Personagem Bowser">
+                </li>
+
+                <li class="personagem" id="diddy" data-name="Diddy Kong">
+                    <span class="tag">1P</span>
+                    <img src="./src/mario/diddy.jpg" alt="Personagem Diddy Kong">
+                </li>
+
+                <li class="personagem" id="dixie" data-name="Dixie Kong">
+                    <span class="tag">1P</span>
+                    <img src="./src/mario/dixie.jpg" alt="Personagem Dixie Kong">
+                </li>
+
+                <li class="personagem" id="donkey" data-name="Donk Kong">
+                    <span class="tag">1P</span>
+                    <img src="./src/mario/donkey.jpg" alt="Personagem Donkey Kong">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/mario/Bowser.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Bowser</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
