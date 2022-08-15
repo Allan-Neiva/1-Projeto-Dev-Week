@@ -28,22 +28,14 @@ main{
     justify-content: center;
 }
 
-.cabecalho .titulo{
-    color: var(---cor-titulo-forte);
-    text-transform: uppercase;
-    font-size: 52px;
-    line-height: 102px;
-    -webkit-text-stroke: 2px var(--cor-titulo-forte);
-    transform: translate(30%);
-    
-}
+
 
 .cabecalho .logotipo{
-    width: 20%;
-    height: 30%;
-    text-align: left;
-    position: relative;
-    transform: translate( -300%);
+    display: flex;
+    justify-content: center;
+    margin: center;
+    
+    
 }
 
 .selecao-de-personagens{
