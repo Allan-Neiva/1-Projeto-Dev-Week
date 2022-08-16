@@ -22,21 +22,16 @@ main{
     justify-content: center;
 }
 
-.cabecalho{
+.titulo{
     z-index: 1;
     display: flex;    
     justify-content: center;
 }
-
-
-
-.cabecalho .logotipo{
-    display: flex;
-    justify-content: center;
-    margin: center;
-    
-    
+.logotipo{
+    opacity: 0.9;
+    width: 40vh;   
 }
+
 
 .selecao-de-personagens{
     display: flex;
@@ -44,16 +39,21 @@ main{
     justify-content: center;
 }
 
+#personagem-jogador-2{
+    width: 100%;
+    height: 75vh;
+}
+
 .selecao-de-personagens .personagem-grande{
     text-align: center;
     width: 30%;
-    height: 70vh;
+    height: 75vh;
     position: relative;
 }
 
 .selecao-de-personagens .personagem-grande img{
     position: absolute;
-    left: 50%;
+    left: 38%;
     top:50%;
     transform: translate(-50%, -50%);
 }
